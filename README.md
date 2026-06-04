@@ -1,7 +1,7 @@
 # Custom 32-bit RISC-V SoC with Memory-Mapped SPI
 
 ## Overview
-This repository contains the RTL design, testbenches, and software integration for a custom System-on-Chip (SoC). It merges a 32-bit Single-Cycle RISC-V microprocessor core with a custom Serial Peripheral Interface (SPI) Master module. 
+This repository contains the RTL design, testbenches, and software integration for a custom System-on-Chip (SoC). It merges a [32-bit Single-Cycle RISC-V microprocessor core](https://github.com/loonamanik/RISC-V-32bit-Single-Cycle) with a custom [Serial Peripheral Interface (SPI) Master module](https://github.com/loonamanik/SPI_master_slave). 
 
 The core feature of this project is the **Memory-Mapped I/O (MMIO)** architecture, allowing the RISC-V CPU to configure, trigger, and read from the hardware SPI peripheral using standard load (`lw`) and store (`sw`) instructions without requiring dedicated I/O pins.
 
